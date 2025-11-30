@@ -7,7 +7,7 @@
     {
       "c": "#777777"
     },
-    "Tab",
+    "Esc",
     {
       "c": "#cccccc"
     },
@@ -33,7 +33,7 @@
     {
       "c": "#777777"
     },
-    "Esc",
+    "Tab",
     {
       "c": "#cccccc",
       "t": "#0066cc\n\n\n\n#000000"
@@ -92,9 +92,9 @@
     },
     "GUI",
     {
-      "c": "#cccccc"
+      "c": "#aaaaaa"
     },
-    "Space",
+    "Back-space",
     {
       "c": "#99ccff",
       "w": 2
@@ -107,9 +107,12 @@
     },
     "Raise",
     {
+      "c": "#cccccc"
+    },
+    "Space",
+    {
       "c": "#aaaaaa"
     },
-    "Back-space",
     "Enter"
   ],
   [
@@ -192,9 +195,9 @@
     },
     "GUI",
     {
-      "c": "#cccccc"
+      "c": "#aaaaaa"
     },
-    "Space",
+    "Back-space",
     {
       "c": "#99ccff",
       "w": 2
@@ -207,9 +210,12 @@
     },
     "",
     {
+      "c": "#cccccc"
+    },
+    "Space",
+    {
       "c": "#aaaaaa"
     },
-    "Back-space",
     "Enter"
   ],
   [
@@ -292,9 +298,9 @@
     },
     "GUI",
     {
-      "c": "#cccccc"
+      "c": "#aaaaaa"
     },
-    "Space",
+    "Back-space",
     {
       "c": "#ffcccc",
       "w": 2
@@ -306,9 +312,12 @@
     },
     "",
     {
+      "c": "#cccccc"
+    },
+    "Space",
+    {
       "c": "#aaaaaa"
     },
-    "Back-space",
     "Enter"
   ]
 ]
