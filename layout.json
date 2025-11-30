@@ -92,27 +92,24 @@
     },
     "GUI",
     {
-      "c": "#99ccff"
-    },
-    "Lower",
-    {
-      "c": "#cccccc",
-      "w": 2
+      "c": "#cccccc"
     },
     "Space",
     {
-      "x": 1,
-      "w": 2,
-      "c": "#aaaaaa"
+      "c": "#99ccff",
+      "w": 2
     },
-    "Backspace",
+    "Lower",
     {
-      "c": "#ffcccc"
+      "x": 1,
+      "c": "#ffcccc",
+      "w": 2
     },
     "Raise",
     {
       "c": "#aaaaaa"
     },
+    "Back-space",
     "Enter"
   ],
   [
@@ -195,27 +192,24 @@
     },
     "GUI",
     {
-      "c": "#99ccff"
-    },
-    "",
-    {
-      "c": "#cccccc",
-      "w": 2
+      "c": "#cccccc"
     },
     "Space",
     {
-      "x": 1,
-      "w": 2,
-      "c": "#aaaaaa"
+      "c": "#99ccff",
+      "w": 2
     },
-    "Backspace",
+    "",
     {
-      "c": "#ffcccc"
+      "x": 1,
+      "c": "#ffcccc",
+      "w": 2
     },
     "",
     {
       "c": "#aaaaaa"
     },
+    "Back-space",
     "Enter"
   ],
   [
@@ -298,27 +292,23 @@
     },
     "GUI",
     {
-      "c": "#ffcccc"
-    },
-    "",
-    {
-      "c": "#cccccc",
-      "w": 2
+      "c": "#cccccc"
     },
     "Space",
     {
-      "x": 1,
-      "w": 2,
-      "c": "#aaaaaa"
+      "c": "#ffcccc",
+      "w": 2
     },
-    "Backspace",
+    "",
     {
-      "c": "#ffcccc"
+      "x": 1,
+      "w": 2
     },
     "",
     {
       "c": "#aaaaaa"
     },
+    "Back-space",
     "Enter"
   ]
 ]

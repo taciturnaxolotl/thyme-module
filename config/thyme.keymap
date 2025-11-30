@@ -13,8 +13,8 @@
                 hm: homerow_mods {
                         compatible = "zmk,behavior-hold-tap";
                         #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <120>;
+                        tapping-term-ms = <280>;
+                        quick-tap-ms = <175>;
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
@@ -29,12 +29,12 @@
 // | ESC  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 //        | CTRL| ALT | GUI |SHIFT|     |   |     |SHIFT | GUI | ALT | CTRL|
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | GRAVE|
-//                    | GUI | LWR | SPC |   | BSPC| RSE  | ENT |
+//                    | GUI | SPC | LWR |   | RSE | BSPC | ENT |
                         bindings = <
    &kp TAB   &kp Q       &kp W       &kp E       &kp R        &kp T      &kp Y &kp U        &kp I       &kp O       &kp P          &kp DEL
    &kp ESC   &hm LCTRL A &hm LALT S  &hm LGUI D  &hm LSHFT F  &kp G      &kp H &hm RSHFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI &kp SQT
    &kp LSHFT &kp Z       &kp X       &kp C       &kp V        &kp B      &kp N &kp M        &kp COMMA   &kp DOT     &kp FSLH       &kp GRAVE
-                                     &kp LGUI    &mo 1        &kp SPACE  &kp BSPC &mo 2     &kp RET
+                                     &kp LGUI    &kp SPACE    &mo 1      &mo 2 &kp BSPC    &kp RET
                         >;
                 };
                 lower_layer {
@@ -42,12 +42,12 @@
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL  |
 // |      |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
 // | SHFT | BTCLR| BT1| BT2| BT3| BT4 |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | BSPC|     | ENT |
+//                    | GUI | SPC |     |   |     | BSPC| ENT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp DEL
    &trans     &trans       &trans       &trans       &trans       &trans         &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &kp LSHFT  &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp BSPC &trans   &kp RET
+                                    &kp LGUI     &kp SPACE    &trans         &trans &kp BSPC &kp RET
                         >;
                 };
 
@@ -56,12 +56,12 @@
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | DEL  |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | BSPC|     | ENT |
+//                    | GUI | SPC |     |   |     | BSPC| ENT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp DEL
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
-                             &kp LGUI &trans   &kp SPACE   &kp BSPC  &trans    &kp RET
+                             &kp LGUI &kp SPACE &trans      &trans    &kp BSPC  &kp RET
                         >;
                 };
         };
