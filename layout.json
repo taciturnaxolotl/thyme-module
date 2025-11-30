@@ -5,7 +5,8 @@
   },
   [
     {
-      "c": "#777777"
+      "c": "#777777",
+      "a": 7
     },
     "Esc",
     {
@@ -40,7 +41,7 @@
     },
     "A\n\n\n\nCtrl",
     "S\n\n\n\nAlt",
-    "D\n\n\n\nGUI",
+    "D\n\n\n\n⌘",
     "F\n\n\n\nShift",
     {
       "t": "#000000"
@@ -54,7 +55,7 @@
       "t": "#0066cc\n\n\n\n#000000"
     },
     "J\n\n\n\nShift",
-    "K\n\n\n\nGUI",
+    "K\n\n\n\n⌘",
     "L\n\n\n\nAlt",
     ";\n\n\n\nCtrl",
     {
@@ -90,7 +91,7 @@
       "x": 3,
       "c": "#aaaaaa"
     },
-    "GUI",
+    "⌘",
     {
       "c": "#cccccc"
     },
@@ -193,7 +194,7 @@
       "x": 3,
       "c": "#aaaaaa"
     },
-    "GUI",
+    "⌘",
     {
       "c": "#cccccc"
     },
@@ -296,7 +297,7 @@
       "x": 3,
       "c": "#aaaaaa"
     },
-    "GUI",
+    "⌘",
     {
       "c": "#cccccc"
     },
