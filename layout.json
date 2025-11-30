@@ -27,7 +27,7 @@
     {
       "c": "#aaaaaa"
     },
-    "Delete"
+    "Back-space"
   ],
   [
     {
@@ -92,9 +92,9 @@
     },
     "GUI",
     {
-      "c": "#aaaaaa"
+      "c": "#cccccc"
     },
-    "Back-space",
+    "Space",
     {
       "c": "#99ccff",
       "w": 2
@@ -195,9 +195,9 @@
     },
     "GUI",
     {
-      "c": "#aaaaaa"
+      "c": "#cccccc"
     },
-    "Back-space",
+    "Space",
     {
       "c": "#99ccff",
       "w": 2
@@ -243,7 +243,7 @@
     {
       "c": "#aaaaaa"
     },
-    "Delete"
+    "Back-space"
   ],
   [
     {
@@ -298,9 +298,9 @@
     },
     "GUI",
     {
-      "c": "#aaaaaa"
+      "c": "#cccccc"
     },
-    "Back-space",
+    "Space",
     {
       "c": "#ffcccc",
       "w": 2
